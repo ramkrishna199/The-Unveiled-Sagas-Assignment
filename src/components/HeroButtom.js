@@ -23,7 +23,9 @@ const HeroButtom = () => {
         </p>
         <Button />
       </div>
-      <div className="buttom_right">{/* <Swiper /> */}</div>
+      <div className="buttom_right">
+        <Swiper />
+      </div>
     </div>
   );
 };

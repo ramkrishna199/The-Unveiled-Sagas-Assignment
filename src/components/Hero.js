@@ -7,6 +7,7 @@ import Title from "./Title";
 import Contact from "./Contact";
 import HeroButtom from "./HeroButtom";
 import Section from "./Section";
+import Footer from "./Footer";
 
 const Hero = () => {
   return (
@@ -19,6 +20,7 @@ const Hero = () => {
       <Contact />
       <HeroButtom />
       <Section />
+      {/* <Footer /> */}
     </div>
   );
 };
