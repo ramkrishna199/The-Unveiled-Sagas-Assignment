@@ -13,16 +13,16 @@ const SwiperReact = () => {
       onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide>
-        <img src={aa}></img>
+        <img className="swip_image" src={aa}></img>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={aa}></img>
+        <img className="swip_image" src={aa}></img>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={aa}></img>
+        <img className="swip_image" src={aa}></img>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={aa}></img>
+        <img className="swip_image" src={aa}></img>
       </SwiperSlide>
       ...
     </Swiper>
